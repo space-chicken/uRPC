@@ -1,5 +1,5 @@
 # uRPC
-Simple Remote Procedure Call (RPC) for embedded processors and microcontrollers with Python library. It allows you to call a function (procedure) on a processor or microcontroller via a serial interface. This example will help you speed up your code development process by providing a turnkey solution that is simple, scalable, and can run on any platform.
+Simple Remote Procedure Call (RPC) implementation for embedded processors and microcontrollers with Python library. It allows you to call a function (procedure) on a processor or microcontroller via a serial interface. This example will help you speed up your code development process by providing a turnkey solution that is simple, scalable, and can run on any platform.
 
 ## Installation
 1. Copy uRPC.c/uRPC.h to your project folder.
@@ -89,7 +89,6 @@ void InterruptHandler(void)
 ...
 while(1)
 {
-  int index;
   ...
 
   // Assuming `byteReceived()` returns 1 when at least one byte is received.
